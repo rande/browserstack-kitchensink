@@ -4,8 +4,6 @@ var Mink = require('cucumber-mink');
 var parameters = {
     driver: {
         desiredCapabilities: {
-            'browserstack.local': false,
-            'browserstack.debug': true,
             browser:              'Safari',
             browser_version:      '8.0',
             os:                   'OS X',
